@@ -1,0 +1,242 @@
+[
+  {
+    "value": "eixample-dreta",
+    "label": "Eixample Dreta",
+    "type": "Barrio",
+    "region": "Eixample",
+    "latlng": [41.3948, 2.1671],
+    "popularStreets": ["Passeig de Gràcia", "Diagonal", "Balmes"]
+  },
+  {
+    "value": "eixample-esquerra",
+    "label": "Eixample Esquerra",
+    "type": "Barrio",
+    "region": "Eixample",
+    "latlng": [41.3869, 2.1567],
+    "popularStreets": ["Gran Via", "Urgell", "Comte d'Urgell"]
+  },
+  {
+    "value": "sagrada-familia",
+    "label": "Sagrada Familia",
+    "type": "Barrio",
+    "region": "Eixample",
+    "latlng": [41.4036, 2.1744],
+    "popularStreets": ["Mallorca", "Marina", "Provença"]
+  },
+  {
+    "value": "gracia-vila",
+    "label": "Vila de Gràcia",
+    "type": "Barrio",
+    "region": "Gràcia",
+    "latlng": [41.4037, 2.1582],
+    "popularStreets": ["Gran de Gràcia", "Torrent de l'Olla", "Verdi"]
+  },
+  {
+    "value": "camp-grassot",
+    "label": "Camp d'en Grassot",
+    "type": "Barrio",
+    "region": "Gràcia",
+    "latlng": [41.4071, 2.1697],
+    "popularStreets": ["Indústria", "Dos de Maig", "Sicília"]
+  },
+  {
+    "value": "gothic",
+    "label": "Barrio Gótico",
+    "type": "Barrio",
+    "region": "Ciutat Vella",
+    "latlng": [41.3825, 2.1769],
+    "popularStreets": ["Via Laietana", "Jaume I", "Portal de l'Àngel"]
+  },
+  {
+    "value": "born",
+    "label": "El Born",
+    "type": "Barrio",
+    "region": "Ciutat Vella",
+    "latlng": [41.3839, 2.1828],
+    "popularStreets": ["Princesa", "Montcada", "Argenteria"]
+  },
+  {
+    "value": "raval",
+    "label": "El Raval",
+    "type": "Barrio",
+    "region": "Ciutat Vella",
+    "latlng": [41.3803, 2.1689],
+    "popularStreets": ["Rambla del Raval", "Sant Pau", "Carme"]
+  },
+  {
+    "value": "barceloneta",
+    "label": "La Barceloneta",
+    "type": "Barrio",
+    "region": "Ciutat Vella",
+    "latlng": [41.3795, 2.1893],
+    "popularStreets": ["Passeig Marítim", "Sant Carles", "Baluard"]
+  },
+  {
+    "value": "sarria",
+    "label": "Sarrià",
+    "type": "Barrio",
+    "region": "Sarrià-Sant Gervasi",
+    "latlng": [41.3988, 2.1197],
+    "popularStreets": ["Major de Sarrià", "Passeig Reina Elisenda", "Mandri"]
+  },
+  {
+    "value": "sant-gervasi",
+    "label": "Sant Gervasi",
+    "type": "Barrio",
+    "region": "Sarrià-Sant Gervasi",
+    "latlng": [41.4050, 2.1389],
+    "popularStreets": ["Balmes", "Sant Gervasi de Cassoles", "Muntaner"]
+  },
+  {
+    "value": "pedralbes",
+    "label": "Pedralbes",
+    "type": "Barrio",
+    "region": "Les Corts",
+    "latlng": [41.3878, 2.1084],
+    "popularStreets": ["Diagonal", "Pedralbes", "Manuel Girona"]
+  },
+  {
+    "value": "les-corts",
+    "label": "Les Corts",
+    "type": "Barrio",
+    "region": "Les Corts",
+    "latlng": [41.3866, 2.1322],
+    "popularStreets": ["Travessera de les Corts", "Collblanc", "Equador"]
+  },
+  {
+    "value": "sants",
+    "label": "Sants",
+    "type": "Barrio",
+    "region": "Sants-Montjuïc",
+    "latlng": [41.3777, 2.1404],
+    "popularStreets": ["Creu Coberta", "Sants", "Riera Blanca"]
+  },
+  {
+    "value": "montjuic",
+    "label": "Montjuïc",
+    "type": "Barrio",
+    "region": "Sants-Montjuïc",
+    "latlng": [41.3647, 2.1538],
+    "popularStreets": ["Paral·lel", "Poble Sec", "Montjuïc"]
+  },
+  {
+    "value": "poblenou",
+    "label": "Poblenou",
+    "type": "Barrio",
+    "region": "Sant Martí",
+    "latlng": [41.4029, 2.2006],
+    "popularStreets": ["Rambla del Poblenou", "Pujades", "Llull"]
+  },
+  {
+    "value": "diagonal-mar",
+    "label": "Diagonal Mar",
+    "type": "Barrio",
+    "region": "Sant Martí",
+    "latlng": [41.4094, 2.2165],
+    "popularStreets": ["Diagonal", "Llull", "Eduard Maristany"]
+  },
+  {
+    "value": "clot",
+    "label": "El Clot",
+    "type": "Barrio",
+    "region": "Sant Martí",
+    "latlng": [41.4092, 2.1892],
+    "popularStreets": ["Clot", "Aragó", "València"]
+  },
+  {
+    "value": "horta",
+    "label": "Horta",
+    "type": "Barrio",
+    "region": "Horta-Guinardó",
+    "latlng": [41.4264, 2.1594],
+    "popularStreets": ["Horta", "Carmel", "Guinardó"]
+  },
+  {
+    "value": "nou-barris-central",
+    "label": "Nou Barris Centre",
+    "type": "Barrio",
+    "region": "Nou Barris",
+    "latlng": [41.4381, 2.1736],
+    "popularStreets": ["Meridiana", "Fabra i Puig", "Passeig Valldaura"]
+  },
+  {
+    "value": "sant-andreu",
+    "label": "Sant Andreu",
+    "type": "Barrio",
+    "region": "Sant Andreu",
+    "latlng": [41.4354, 2.1896],
+    "popularStreets": ["Gran de Sant Andreu", "Meridiana", "Fabra i Puig"]
+  },
+  {
+    "value": "zona-franca",
+    "label": "Zona Franca",
+    "type": "Barrio",
+    "region": "Sants-Montjuïc",
+    "latlng": [41.3531, 2.1295],
+    "popularStreets": ["Zona Franca", "Port", "Mercabarna"]
+  },
+  {
+    "value": "pg-gracia",
+    "label": "Passeig de Gràcia",
+    "type": "Calle",
+    "region": "Eixample",
+    "latlng": [41.3918, 2.1649],
+    "popularStreets": ["Passeig de Gràcia"]
+  },
+  {
+    "value": "diagonal",
+    "label": "Avinguda Diagonal",
+    "type": "Calle",
+    "region": "Varios",
+    "latlng": [41.3971, 2.1608],
+    "popularStreets": ["Diagonal"]
+  },
+  {
+    "value": "ramblas",
+    "label": "Las Ramblas",
+    "type": "Calle",
+    "region": "Ciutat Vella",
+    "latlng": [41.3811, 2.1739],
+    "popularStreets": ["La Rambla"]
+  },
+  {
+    "value": "gran-via",
+    "label": "Gran Via",
+    "type": "Calle",
+    "region": "Eixample",
+    "latlng": [41.3798, 2.1599],
+    "popularStreets": ["Gran Via de les Corts Catalanes"]
+  },
+  {
+    "value": "plaza-espana",
+    "label": "Plaça Espanya",
+    "type": "Plaza",
+    "region": "Sants-Montjuïc",
+    "latlng": [41.3754, 2.1490],
+    "popularStreets": ["Gran Via", "Tarragona", "Paral·lel"]
+  },
+  {
+    "value": "plaza-catalunya",
+    "label": "Plaça Catalunya",
+    "type": "Plaza",
+    "region": "Eixample",
+    "latlng": [41.3870, 2.1700],
+    "popularStreets": ["Rambla Catalunya", "Portal de l'Àngel", "Pelai"]
+  },
+  {
+    "value": "camp-nou",
+    "label": "Camp Nou",
+    "type": "Zona",
+    "region": "Les Corts",
+    "latlng": [41.3809, 2.1228],
+    "popularStreets": ["Aristides Maillol", "Joan XXIII", "Travessera"]
+  },
+  {
+    "value": "aeroport",
+    "label": "Zona Aeropuerto",
+    "type": "Zona",
+    "region": "El Prat",
+    "latlng": [41.2974, 2.0833],
+    "popularStreets": ["Terminal 1", "Terminal 2", "Prat"]
+  }
+]

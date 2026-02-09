@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "demo-user-1",
+      "name": "Usuario Demo",
+      "email": "demo@huecopark.com",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfiqNnJ5Zy",
+      "image": null,
+      "favoriteIds": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "demo-user-2",
+      "name": "Usuario Demo2",
+      "email": "a@a",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfiqNnJ5Zy",
+      "image": null,
+      "favoriteIds": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-1770507369139",
+      "name": "b",
+      "email": "b@b",
+      "password": "$2b$12$fN3Lp3NdcyLgFIHixEYX5uY4Y1xhLixNY6wczVJ1WOb39SscS3THS",
+      "image": null,
+      "favoriteIds": [],
+      "createdAt": "2026-02-07T23:36:09.139Z"
+    }
+  ]
+}
