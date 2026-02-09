@@ -110,6 +110,7 @@ export const getListings = async (query?: {
       );
       return {
         ...listing,
+        createdAt: new Date(listing.createdAt),
         reservations: listingReservations,
       };
     });
@@ -138,6 +139,7 @@ export const getAllListings = async () => {
       );
       return {
         ...listing,
+        createdAt: new Date(listing.createdAt),
         reservations: listingReservations,
       };
     });
@@ -163,7 +165,9 @@ export const getListingById = async (id: string) => {
   // Simular la estructura con usuario
   return {
     ...listing,
+    createdAt: new Date(listing.createdAt),
     user: {
+      id: listing.userId,
       name: "Administrador",
       image: null,
     },
@@ -171,7 +175,7 @@ export const getListingById = async (id: string) => {
   };
 };
 
-export const createListing = async (data: { [x: string]: any }) => {
+export const createListing = async (data: { [x: string]: any }): Promise<{ id: string }> => {
   // Por ahora solo devolvemos un mensaje, ya que no tenemos DB
   // En producción esto debería guardar en la DB real
   throw new Error("Función de crear parking temporalmente deshabilitada. Usa los parkings precargados.");

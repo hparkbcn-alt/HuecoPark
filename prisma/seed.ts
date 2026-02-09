@@ -183,7 +183,7 @@ async function main() {
 
   console.log(`\n🎉 ¡Seed completado! ${parkingData.length} parkings creados en Barcelona.`);
   console.log('\n📍 Zonas cubiertas:');
-  const uniqueRegions = [...new Set(barcelonaLocations.map(l => l.region))];
+  const uniqueRegions = Array.from(new Set(barcelonaLocations.map(l => l.region)));
   uniqueRegions.forEach(region => console.log(`   - ${region}`));
 }
 

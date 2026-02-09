@@ -53,7 +53,7 @@ export const authOptions: AuthOptions = {
             id: token.sub || token.id,
             name: token.name,
             email: token.email,
-            image: token.picture || token.image,
+            image: (token.picture || token.image) as string | null | undefined,
           },
         };
       }

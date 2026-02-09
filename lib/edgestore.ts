@@ -1,9 +1,9 @@
 "use client";
 
-import { type EdgeStoreRouter } from "@/app/api/edgestore/[...edgestore]/route";
 import { createEdgeStoreProvider } from "@edgestore/react";
 
+// Stub EdgeStoreRouter since EdgeStore is disabled
 const { EdgeStoreProvider, useEdgeStore } =
-  createEdgeStoreProvider<EdgeStoreRouter>();
+  createEdgeStoreProvider();
 
 export { EdgeStoreProvider, useEdgeStore };

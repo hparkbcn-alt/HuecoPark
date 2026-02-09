@@ -36,6 +36,13 @@ const ListingPage = async ({ params: { listingId } }: { params: IParams }) => {
 
   const category = categories.find((cate) => cate.label === listing.category);
 
+  // Convert reservation dates from strings to Date objects
+  const formattedReservations = reservations.map(reservation => ({
+    ...reservation,
+    startDate: new Date(reservation.startDate),
+    endDate: new Date(reservation.endDate),
+  }));
+
   return (
     <section className="main-container">
       <div className="flex flex-col gap-6">
@@ -51,7 +58,7 @@ const ListingPage = async ({ params: { listingId } }: { params: IParams }) => {
       <ListingClient
         id={id}
         price={price}
-        reservations={reservations}
+        reservations={formattedReservations}
         user={currentUser}
         title={title}
         owner={owner}
