@@ -85,7 +85,7 @@ export default function Page() {
             <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0"><span className="text-sm font-bold text-primary">3</span></div>
             <div>
               <h4 className="font-medium">Desactiva cuando aparques</h4>
-              <p className="text-sm text-muted-foreground">Pulsa "Ya he aparcado" para parar las notificaciones</p>
+              <p className="text-sm text-muted-foreground">Pulsa &quot;Ya he aparcado&quot; para parar las notificaciones</p>
             </div>
           </div>
         </div>

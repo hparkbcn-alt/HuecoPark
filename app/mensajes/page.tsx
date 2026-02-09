@@ -19,7 +19,7 @@ export default function MessagesPage() {
     if (selectedConv) {
       markAsRead(selectedConv.id);
     }
-  }, [selectedConv]);
+  }, [selectedConv, markAsRead]);
 
   const handleSend = () => {
     if (!messageText.trim() || !selectedConv) return;

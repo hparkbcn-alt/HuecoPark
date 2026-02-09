@@ -5,6 +5,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Listing {
   id: string;
@@ -281,10 +282,12 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ listings }) => {
             >
               <Popup>
                 <div className="p-2 min-w-[250px]">
-                  <img
+                  <Image
                     src={listing.imageSrc}
                     alt={listing.title}
                     className="w-full h-32 object-cover rounded-lg mb-2"
+                    width={250}
+                    height={128}
                   />
                   <h3 className="font-semibold text-base mb-1">{listing.title}</h3>
                   <p className="text-sm text-gray-600 mb-2">

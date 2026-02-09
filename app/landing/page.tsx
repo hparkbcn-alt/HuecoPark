@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function LandingPage() {
   return (
@@ -30,10 +31,12 @@ export default function LandingPage() {
 
           <div className="w-full md:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=7f0a6f8d1e3f5d1c2b6a3b2f6b1c3a9d"
                 alt="Barcelona parking"
                 className="w-full h-48 md:h-72 object-cover"
+                width={1600}
+                height={900}
               />
             </div>
           </div>

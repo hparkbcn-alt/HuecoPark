@@ -33,10 +33,9 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<TabType>("pending");
 
-  const now = new Date();
-
   // Clasificar reservas según su estado
   const classifiedReservations = useMemo(() => {
+    const now = new Date();
     const pending: any[] = [];
     const accepted: any[] = [];
     const active: any[] = [];
