@@ -1,6 +1,6 @@
 {
   "name": "huecopark",
-  "version": "0.1.11",
+  "version": "0.1.111",
   "private": true,
   "scripts": {
     "dev": "next dev",
