@@ -300,7 +300,8 @@ const ListingClient: React.FC<ListingClientProps> = ({
         const { endDate, startDate } = dateRange;
         
         if (!startDate || !endDate) {
-          return toast.error("Por favor selecciona las fechas");
+          toast.error("Por favor selecciona las fechas");
+          return;
         }
 
         // Combinar fecha con hora seleccionada
@@ -312,7 +313,8 @@ const ListingClient: React.FC<ListingClientProps> = ({
 
         // Validar que la hora de fin sea posterior a la de inicio
         if (endDateTime <= startDateTime) {
-          return toast.error("La hora de fin debe ser posterior a la de inicio");
+          toast.error("La hora de fin debe ser posterior a la de inicio");
+          return;
         }
         
         const res = await createPaymentSession({
