@@ -77,7 +77,7 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
     });
 
     return { pending, accepted, active, completed, history };
-  }, [listings, now]);
+  }, [listings]);
 
   const getCurrentListings = () => {
     switch (activeTab) {

@@ -92,9 +92,12 @@ export const updateFavorite = async ({
 export const getFavoriteListings = async () => {
   try {
     const favoriteIds = await getFavorites();
-    const favorites = parkingsData.parkings.filter(p => 
-      favoriteIds.includes(p.id)
-    );
+    const favorites = parkingsData.parkings
+      .filter(p => favoriteIds.includes(p.id))
+      .map(listing => ({
+        ...listing,
+        createdAt: new Date(listing.createdAt)
+      }));
     return favorites;
   } catch (error: any) {
     throw new Error(error.message);
